@@ -16,9 +16,4 @@ class Solution:
             suffix *= nums[i]
 
         return result
-# Example usage:
-sol = Solution()
-nums = [1, 2, 3, 4]
-print("Input:", nums)
-output = sol.productExceptSelf(nums)
-print("Output:", output)  # Output should be [24, 12, 8, 6]
+#
